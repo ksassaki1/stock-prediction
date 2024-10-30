@@ -1,49 +1,74 @@
-# Previsão de Preços de Ações com LSTM e Comparação com Prophet
 
-## Descrição do Projeto
-Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e **Prophet** para prever os preços das ações da Apple Inc.
+# 📈 **Stock Price Prediction Project**
 
----
-
-## Objetivo
-- Utilizar **LSTM** para realizar a previsão de preços de ações.
-- Implementar o desempenho do modelo **LSTM**.
-- Demonstrar o uso do **Prophet** para comparação.
+Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e o **Prophet** para prever os preços das ações da **Apple Inc.**. O objetivo é comparar a capacidade desses dois modelos em identificar padrões temporais nos preços das ações e fornecer previsões precisas.
 
 ---
 
-## Tecnologias e Ferramentas Usadas
+## 🎯 **Objetivo**
+- Utilizar **LSTM** para realizar previsões de preços de ações.
+- Avaliar o desempenho do modelo **LSTM** utilizando métricas adequadas.
+- Demonstrar o uso do **Prophet** para comparação e análise adicional.
+
+---
+
+## 🛠 **Tecnologias e Ferramentas Usadas**
 - **Linguagem:** Python  
 - **Bibliotecas:**
   - `yfinance`: Para download dos dados históricos de ações.
-  - `scikit-learn`: Para métricas e pré-processamento.
-  - `TensorFlow`: Para construção do modelo LSTM.
+  - `scikit-learn`: Para métricas e pré-processamento dos dados.
+  - `TensorFlow`: Para construção e treinamento do modelo LSTM.
   - `Prophet`: Modelo de previsão desenvolvido pelo Facebook.
-  - `Matplotlib`: Para visualização de gráficos.
+  - `Matplotlib`: Para visualização dos resultados.
 
 ---
 
-## Estrutura do Projeto
-- **`stock_price_prediction.ipynb`**: Contém o notebook principal com:
-  - Preparação dos dados
-  - Treinamento dos modelos
-  - Comparação entre **LSTM**, **Prophet**
-  - Visualizações dos resultados
+## 📂 **Estrutura do Projeto**
+### **Arquivos e Diretórios**
+- **`stock_price_prediction.ipynb`**: Notebook principal contendo:
+  - Preparação e limpeza dos dados.
+  - Treinamento dos modelos **LSTM** e **Prophet**.
+  - Comparação entre os dois modelos.
+  - Visualização dos resultados e métricas de desempenho.
 
 ---
 
-## Modelos Implementados
-1. **LSTM**: Focado em capturar padrões complexos e de longo prazo em séries temporais.
-2. **Prophet**: Modelo de previsão projetado para capturar tendências e sazonalidades.
+## 🧠 **Modelos Implementados**
+- **LSTM:**  
+  - Modelo de rede neural recorrente que captura padrões complexos e de longo prazo em séries temporais.
+  - Útil para detectar tendências sutis em dados financeiros históricos.
 
-
----
-
-## Próximos Passos
-- **Testar o modelo com outros ativos financeiros**.
-- **Ajustar hiperparâmetros** do LSTM (épocas, batch size, camadas).
-- Explorar técnicas mais avançadas, como **attention mechanisms**.
-- Implementar um **serviço web** para mostrar previsões em tempo real.
+- **Prophet:**  
+  - Modelo projetado para capturar tendências e sazonalidades de forma eficiente, especialmente em séries temporais com dados ausentes ou eventos sazonais.
 
 ---
 
+## 🚀 **Próximos Passos**
+- Testar o modelo com outros ativos financeiros para generalização.
+- **Ajustar hiperparâmetros do LSTM**:  
+  - Explorar o número de épocas, tamanho de lote (batch size) e a profundidade das camadas.
+- Explorar **técnicas avançadas**:  
+  - Implementar mecanismos de **attention** para melhorar a previsão.
+- Desenvolver um **serviço web**:  
+  - Mostrar previsões em tempo real utilizando um framework como **Streamlit** ou **Flask**.
+
+---
+
+## 📊 **Sugestões de Aperfeiçoamento**
+1. **Normalização dos Dados:** Utilize escaladores como `MinMaxScaler` para garantir que os dados estejam na mesma escala, o que pode melhorar o desempenho do LSTM.
+2. **Validação Cruzada:** Implementar uma técnica como **TimeSeriesSplit** para uma validação mais robusta.
+3. **Early Stopping e Model Checkpoint:** Utilize callbacks do TensorFlow para evitar overfitting.
+4. **Implementação de um Dashboard:** Adicione um **dashboard interativo** utilizando **Plotly** ou **Dash** para uma melhor visualização dos resultados.
+5. **Comparação com Modelos Tradicionais:** Incluir modelos como ARIMA ou SARIMA para enriquecer a análise comparativa.
+6. **Backtesting:** Realize um backtest para avaliar o desempenho das previsões em dados fora da amostra.
+
+---
+
+## 📝 **Licença**
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
+---
+
+## 👤 **Autor**
+Guilherme Koiti Tanaka Sassaki  
+[LinkedIn](https://www.linkedin.com/in/guilherme-sassaki-10b81ba7/)
