@@ -63,10 +63,6 @@ Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e o **Prophet**
 
 ---
 
-## 📝 **Licença**
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
----
 
 ## 👤 **Autor**
 Guilherme Koiti Tanaka Sassaki  
