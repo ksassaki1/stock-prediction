@@ -1,13 +1,13 @@
 # Previsão de Preços de Ações com LSTM e Comparação com Prophet
 
 ## Descrição do Projeto
-Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e **Prophet** para prever os preços das ações da Apple Inc. A abordagem inclui uma **comparação com uma baseline simples** (previsão baseada no último valor observado), demonstrando como modelos mais sofisticados podem melhorar a precisão das previsões.
+Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e **Prophet** para prever os preços das ações da Apple Inc.
 
 ---
 
 ## Objetivo
 - Utilizar **LSTM** para realizar a previsão de preços de ações.
-- Comparar o desempenho do modelo **LSTM** com uma **baseline simples**.
+- Implementar o desempenho do modelo **LSTM**.
 - Demonstrar o uso do **Prophet** para comparação.
 
 ---
@@ -27,7 +27,7 @@ Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e **Prophet** p
 - **`stock_price_prediction.ipynb`**: Contém o notebook principal com:
   - Preparação dos dados
   - Treinamento dos modelos
-  - Comparação entre **LSTM**, **Prophet** e a baseline
+  - Comparação entre **LSTM**, **Prophet**
   - Visualizações dos resultados
 
 ---
@@ -35,15 +35,7 @@ Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e **Prophet** p
 ## Modelos Implementados
 1. **LSTM**: Focado em capturar padrões complexos e de longo prazo em séries temporais.
 2. **Prophet**: Modelo de previsão projetado para capturar tendências e sazonalidades.
-3. **Baseline**: Previsão usando o último valor conhecido, servindo como referência simples.
 
----
-
-## Resultados
-- **LSTM RMSE**: 7.86  
-- **Baseline RMSE**: 2.71  
-
-Apesar do **LSTM** ser mais poderoso, a baseline teve um desempenho competitivo, destacando a dificuldade de prever séries temporais financeiras.
 
 ---
 
