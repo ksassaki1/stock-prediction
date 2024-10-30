@@ -55,12 +55,11 @@ Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e o **Prophet**
 ---
 
 ## 📊 **Sugestões de Aperfeiçoamento**
-1. **Normalização dos Dados:** Utilize escaladores como `MinMaxScaler` para garantir que os dados estejam na mesma escala, o que pode melhorar o desempenho do LSTM.
-2. **Validação Cruzada:** Implementar uma técnica como **TimeSeriesSplit** para uma validação mais robusta.
-3. **Early Stopping e Model Checkpoint:** Utilize callbacks do TensorFlow para evitar overfitting.
-4. **Implementação de um Dashboard:** Adicione um **dashboard interativo** utilizando **Plotly** ou **Dash** para uma melhor visualização dos resultados.
-5. **Comparação com Modelos Tradicionais:** Incluir modelos como ARIMA ou SARIMA para enriquecer a análise comparativa.
-6. **Backtesting:** Realize um backtest para avaliar o desempenho das previsões em dados fora da amostra.
+1. **Validação Cruzada:** Implementar uma técnica como **TimeSeriesSplit** para uma validação mais robusta.
+2. **Early Stopping e Model Checkpoint:** Utilizar callbacks do TensorFlow para evitar overfitting.
+3. **Implementação de um Dashboard:** Adicionar um **dashboard interativo** utilizando **Plotly** ou **Dash** para uma melhor visualização dos resultados.
+4. **Comparação com Modelos Tradicionais:** Incluir modelos como ARIMA ou SARIMA para enriquecer a análise comparativa.
+5. **Backtesting:** Realizar um backtest para avaliar o desempenho das previsões em dados fora da amostra.
 
 ---
 
