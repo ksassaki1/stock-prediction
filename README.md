@@ -10,7 +10,9 @@ Objetivo
 O objetivo é:
 
 -Utilizar LSTM para realizar a previsão de preços de ações.
+
 -Comparar o desempenho do modelo LSTM com uma baseline simples.
+
 -Demonstrar o uso do Prophet para comparação.
 
 
@@ -20,9 +22,13 @@ Linguagem: Python
 
 Bibliotecas:
 -yfinance (para download dos dados de ações)
+
 -scikit-learn (métricas e pré-processamento)
+
 -TensorFlow (construção do modelo LSTM)
+
 -Prophet (modelo de previsão)
+
 -Matplotlib (visualização de gráficos)
 
 
@@ -30,8 +36,9 @@ Estrutura do Projeto
 stock_price_prediction.ipynb: Contém o notebook principal com o código, treinamentos e visualizações.
 
 
-Modelos Implementados:
+Modelos Implementados: 
 -LSTM (focado em padrões de longo prazo nas séries temporais)
+
 -Prophet (modelo de previsão desenvolvido pelo Facebook)
 
 
