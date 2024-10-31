@@ -54,14 +54,6 @@ Este projeto utiliza um modelo **LSTM (Long Short-Term Memory)** e o **Prophet**
 
 ---
 
-## 📊 **Sugestões de Aperfeiçoamento**
-1. **Validação Cruzada:** Implementar uma técnica como **TimeSeriesSplit** para uma validação mais robusta.
-2. **Early Stopping e Model Checkpoint:** Utilizar callbacks do TensorFlow para evitar overfitting.
-3. **Implementação de um Dashboard:** Adicionar um **dashboard interativo** utilizando **Plotly** ou **Dash** para uma melhor visualização dos resultados.
-4. **Comparação com Modelos Tradicionais:** Incluir modelos como ARIMA ou SARIMA para enriquecer a análise comparativa.
-5. **Backtesting:** Realizar um backtest para avaliar o desempenho das previsões em dados fora da amostra.
-
----
 
 
 ## 👤 **Autor**
